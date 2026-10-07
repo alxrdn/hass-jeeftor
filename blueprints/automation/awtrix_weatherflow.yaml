@@ -1022,7 +1022,7 @@ action:
                   "icon": "{{icon}}",
                   "durationMs": {{ (message_duration | int) * 1000 }},
                   "iconMode": "push",
-                  "lifetimeMs": 120000,
+                  "lifetimeMs": 1800000,
                   "lifetimeExpiry": "mark"
                   {% if show_overlay and overlay | trim != 'clear' %}
                   ,"overlay": "{{overlay | trim}}"
